@@ -54,7 +54,7 @@ public class n14499 {
     //동쪽 - 윗 -> 왼쪽면 -> 바닥면 -> 오른쪽 면 -> 윗면
     //다이스 배열 [윗, 바닥, 앞, 뒤, 왼, 오]
     static int moveRight(){
-        board[startX][startY]
+        int tmp = board[startX][startY];
         dice[0] = dice[4];
         dice[4] = dice[2];
         dice[2] = dice[5];
